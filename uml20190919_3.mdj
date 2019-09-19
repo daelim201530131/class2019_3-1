@@ -212,12 +212,6 @@
 						{
 							"_type": "UMLOperationView",
 							"_id": "AAAAAAFtSEKUAGFdguk=",
-							"_parent": {
-								"$ref": "AAAAAAFtSEEIWmDwqdQ="
-							},
-							"model": {
-								"$ref": "AAAAAAFtSEKT2WFaT6g="
-							},
 							"font": "Arial;13;0",
 							"left": 293,
 							"top": 136,
@@ -3538,6 +3532,7 @@
 							"width": 90.57080078125,
 							"height": 97,
 							"showProperty": false,
+							"showType": false,
 							"nameCompartment": {
 								"$ref": "AAAAAAFtSHQJLmXyt6Y="
 							},
