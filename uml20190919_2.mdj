@@ -61,7 +61,7 @@
 											"top": 263,
 											"width": 158.59619140625,
 											"height": 13,
-											"text": "Marine"
+											"text": "Factory"
 										},
 										{
 											"_type": "LabelView",
@@ -129,7 +129,7 @@
 											"top": 286,
 											"width": 158.59619140625,
 											"height": 13,
-											"text": "+weapon",
+											"text": "+factoryAddOn",
 											"horizontalAlignment": 0
 										}
 									],
@@ -163,41 +163,7 @@
 											"top": 309,
 											"width": 158.59619140625,
 											"height": 13,
-											"text": "-move()",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFtSAnwAR9uUYw=",
-											"_parent": {
-												"$ref": "AAAAAAFtSAliJB87eZc="
-											},
-											"model": {
-												"$ref": "AAAAAAFtSAnv2B9rO/g="
-											},
-											"font": "Arial;13;0",
-											"left": 93,
-											"top": 324,
-											"width": 158.59619140625,
-											"height": 13,
-											"text": "+attack()",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFtSAoU8R91TBo=",
-											"_parent": {
-												"$ref": "AAAAAAFtSAliJB87eZc="
-											},
-											"model": {
-												"$ref": "AAAAAAFtSAoUyB9yTnw="
-											},
-											"font": "Arial;13;0",
-											"left": 93,
-											"top": 339,
-											"width": 158.59619140625,
-											"height": 13,
-											"text": "+underAttack(ref charactor)",
+											"text": "-addOn(ref factoryAddOn)",
 											"horizontalAlignment": 0
 										}
 									],
@@ -205,7 +171,7 @@
 									"left": 88,
 									"top": 304,
 									"width": 168.59619140625,
-									"height": 53
+									"height": 23
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -266,7 +232,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Marine",
+					"name": "Factory",
 					"attributes": [
 						{
 							"_type": "UMLAttribute",
@@ -274,7 +240,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFtSAliIh8ywyU="
 							},
-							"name": "weapon"
+							"name": "factoryAddOn"
 						}
 					],
 					"operations": [
@@ -284,32 +250,17 @@
 							"_parent": {
 								"$ref": "AAAAAAFtSAliIh8ywyU="
 							},
-							"name": "move",
-							"visibility": "private"
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFtSAnv2B9rO/g=",
-							"_parent": {
-								"$ref": "AAAAAAFtSAliIh8ywyU="
-							},
-							"name": "attack"
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFtSAoUyB9yTnw=",
-							"_parent": {
-								"$ref": "AAAAAAFtSAliIh8ywyU="
-							},
-							"name": "underAttack",
+							"name": "addOn",
+							"visibility": "private",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
-									"_id": "AAAAAAFtSAqADR96j8s=",
+									"_id": "AAAAAAFtSBCV3FaLOoc=",
 									"_parent": {
-										"$ref": "AAAAAAFtSAoUyB9yTnw="
+										"$ref": "AAAAAAFtSAmywR9jc9s="
 									},
-									"name": "ref charactor"
+									"name": "ref factoryAddOn",
+									"type": ""
 								}
 							]
 						}
