@@ -61,7 +61,7 @@
 											"font": "Arial;13;1",
 											"left": 101,
 											"top": 223,
-											"width": 85.62353515625,
+											"width": 158.59619140625,
 											"height": 13,
 											"text": "Marine"
 										},
@@ -96,7 +96,7 @@
 									"font": "Arial;13;0",
 									"left": 96,
 									"top": 216,
-									"width": 95.62353515625,
+									"width": 168.59619140625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFtR/2ioZlCK/c="
@@ -133,7 +133,7 @@
 											"font": "Arial;13;0",
 											"left": 101,
 											"top": 246,
-											"width": 85.62353515625,
+											"width": 158.59619140625,
 											"height": 13,
 											"text": "+weapon",
 											"horizontalAlignment": 0
@@ -142,7 +142,7 @@
 									"font": "Arial;13;0",
 									"left": 96,
 									"top": 241,
-									"width": 95.62353515625,
+									"width": 168.59619140625,
 									"height": 23
 								},
 								{
@@ -167,7 +167,7 @@
 											"font": "Arial;13;0",
 											"left": 101,
 											"top": 269,
-											"width": 85.62353515625,
+											"width": 158.59619140625,
 											"height": 13,
 											"text": "-move()",
 											"horizontalAlignment": 0
@@ -184,7 +184,7 @@
 											"font": "Arial;13;0",
 											"left": 101,
 											"top": 284,
-											"width": 85.62353515625,
+											"width": 158.59619140625,
 											"height": 13,
 											"text": "+attack()",
 											"horizontalAlignment": 0
@@ -201,16 +201,16 @@
 											"font": "Arial;13;0",
 											"left": 101,
 											"top": 299,
-											"width": 85.62353515625,
+											"width": 158.59619140625,
 											"height": 13,
-											"text": "+underAttack()",
+											"text": "+underAttack(ref charactor)",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 96,
 									"top": 264,
-									"width": 95.62353515625,
+									"width": 168.59619140625,
 									"height": 53
 								},
 								{
@@ -250,7 +250,7 @@
 							"containerChangeable": true,
 							"left": 96,
 							"top": 216,
-							"width": 95.62353515625,
+							"width": 168.59619140625,
 							"height": 101,
 							"nameCompartment": {
 								"$ref": "AAAAAAFtR/2ioZlBM3Y="
@@ -520,8 +520,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 290,
-									"top": 241,
+									"left": 327,
+									"top": 240,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -541,8 +541,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 290,
-									"top": 226,
+									"left": 327,
+									"top": 225,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -562,8 +562,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 291,
-									"top": 270,
+									"left": 328,
+									"top": 269,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -583,8 +583,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 217,
-									"top": 243,
+									"left": 290,
+									"top": 241,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -604,8 +604,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 219,
-									"top": 229,
+									"left": 292,
+									"top": 227,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -625,8 +625,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 214,
-									"top": 270,
+									"left": 287,
+									"top": 268,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -732,7 +732,7 @@
 								"$ref": "AAAAAAFtR/2ioZlA1ik="
 							},
 							"lineStyle": 1,
-							"points": "192:265;391:259",
+							"points": "265:263;391:259",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFtSABtH5nQLSY="
@@ -842,7 +842,18 @@
 							"_parent": {
 								"$ref": "AAAAAAFtR/2in5k+4jc="
 							},
-							"name": "underAttack"
+							"name": "underAttack",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtSA4RAw4XVd8=",
+									"_parent": {
+										"$ref": "AAAAAAFtR/7le5mjdUU="
+									},
+									"name": "ref charactor",
+									"type": ""
+								}
+							]
 						}
 					]
 				},
